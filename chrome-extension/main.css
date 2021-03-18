@@ -1,0 +1,22 @@
+html {
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    background-color: transparent;
+}
+body {
+    font-family: 'Space Mono, Arial', monospace;
+    max-width: 300px;
+}
+
+#popup-body #output {
+    text-align: center;
+    font-size: 15px;
+}
+
+#popup-body #output:hover{
+    /* text-decoration: line-through; */
+    opacity: 0.6;
+    colour: lightblue;
+    cursor: pointer;
+}

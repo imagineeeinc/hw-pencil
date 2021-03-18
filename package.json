@@ -1,0 +1,22 @@
+{
+  "name": "hw-pencil",
+  "version": "1.0.0",
+  "description": "a browser extension to speed up doing home work online",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagineeeinc/hw-pencil.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "imagineee",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/imagineeeinc/hw-pencil/issues"
+  },
+  "homepage": "https://github.com/imagineeeinc/hw-pencil#readme"
+}
