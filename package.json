@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/imagineeeinc/hw-pencil/issues"
   },
-  "homepage": "https://github.com/imagineeeinc/hw-pencil#readme"
+  "homepage": "https://github.com/imagineeeinc/hw-pencil#readme",
+  "dependencies": {
+    "brainly-api": "^0.0.39",
+    "express": "^4.17.1"
+  }
 }

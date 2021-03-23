@@ -5,20 +5,21 @@
     "description": "a browser extension to speed up doing home work online",     
     "permissions": [
          "activeTab",
+         "tabs",
          "storage"
     ],
-    "browser_action": {
+    "action": {
         "default_title": "hw pencil",
         "default_popup": "popup.html",
         "default_icon": {
             "256": "icon256.png"
         }
     },
+    
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
-            "css": ["main.css"],
-            "js": ["background.js"]
+            "matches": ["https://hegartymaths.com/assessment"],
+            "js": ["hw-sites-scripts/hegarty.js"]
         }
     ],
     "icons": { 
